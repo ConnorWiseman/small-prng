@@ -1,7 +1,7 @@
 # small-prng
 > A fast, seedable replacement for `Math.random()`.
 
-![Node.js](https://img.shields.io/badge/node.js-%3E=_8.12.0-blue.svg?style=flat-square)
+[![npm](https://img.shields.io/npm/v/small-prng.svg?style=flat-square)](https://www.npmjs.com/package/small-prng) ![Node.js](https://img.shields.io/badge/node.js-%3E=_8.12.0-blue.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/com/ConnorWiseman/small-prng/master.svg?style=flat-square)](https://travis-ci.com/ConnorWiseman/small-prng)
 [![Code Coverage](https://img.shields.io/codeclimate/coverage/ConnorWiseman/small-prng.svg?style=flat-square)](https://codeclimate.com/github/ConnorWiseman/small-prng)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/ConnorWiseman/small-prng.svg?style=flat-square)](https://codeclimate.com/github/ConnorWiseman/small-prng)
