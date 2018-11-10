@@ -39,12 +39,12 @@ test('should always return consistent results for known seeds', t => {
 });
 
 test('should always return identical results for identical seeds', t => {
-  for (let i = 0; i < 25000; i++) {
-    const rand1 = prng(1);
-    const rand2 = prng(1);
-    const rand3 = prng(1);
-    const rand4 = prng(1);
+  const rand1 = prng(1);
+  const rand2 = prng(1);
+  const rand3 = prng(1);
+  const rand4 = prng(1);
 
+  for (let i = 0; i < 25000; i++) {
     const results = [ rand1(), rand2(), rand3(), rand4() ];
 
     t.true(results.every(value => value === results[0]));
